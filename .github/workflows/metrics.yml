@@ -10,11 +10,13 @@ jobs:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
+        name: language plugin
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: yes
           plugin_languages_ignored: html, css
       - uses: lowlighter/metrics@latest
+        name: achievement plugin
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_achievements: yes
