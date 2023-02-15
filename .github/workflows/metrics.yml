@@ -29,6 +29,7 @@ jobs:
           filename: habits.svg
           plugin_habits: yes
           plugin_habits_facts: no
+          token: ${{ secrets.METRICS_TOKEN }}
           plugin_habits_charts: yes
           config_timezone: America/Los_Angeles
       - name: Half-year calendar
