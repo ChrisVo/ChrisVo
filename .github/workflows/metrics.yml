@@ -27,11 +27,11 @@ jobs:
       - name: Recent Activity Charts
         uses: lowlighter/metrics@latest
         with:
-        base: ""
-        plugin_habits: yes
-        plugin_habits_facts: no
-        plugin_habits_charts: yes
-        config_timezone: America/Los_Angeles
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: America/Los_Angeles
       - name: Half-year calendar
         uses: lowlighter/metrics@latest
         with:
